@@ -65,6 +65,8 @@ module "network" {
   tags = {
     environment = "dev"
     costcenter  = "it"
+    project     = "FINAL"
+    owner       = "Oscar Villacis"
   }
 
   depends_on = [azurerm_resource_group.vnet]
