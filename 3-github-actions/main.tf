@@ -68,7 +68,7 @@ module "network" {
     costcenter  = "it"
     project     = "Area 51"
     owner       = "Oscar Villacis"
-    manager     = "Thomas Aderson"
+    manager     = "Thomas E. Aderson"
   }
 
   depends_on = [azurerm_resource_group.vnet]
