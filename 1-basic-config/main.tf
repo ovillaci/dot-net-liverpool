@@ -65,6 +65,11 @@ module "network" {
   tags = {
     environment = "dev"
     costcenter  = "it"
+    environment = "dev"
+    costcenter  = "it"
+    project     = "Area 51"
+    owner       = "Oscar Villacis"
+    manager     = "Thomas Aderson el Rey"
   }
 
   depends_on = [azurerm_resource_group.vnet]
