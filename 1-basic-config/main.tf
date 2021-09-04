@@ -65,7 +65,7 @@ module "network" {
   tags = {
     environment = "dev"
     costcenter  = "it"
-    project     = "To the Moon"
+    project     = "To the Moon 2021"
     owner       = "Oscar Villacis"
     manager     = "Rocky III"
     
