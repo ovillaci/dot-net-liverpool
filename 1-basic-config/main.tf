@@ -66,7 +66,9 @@ module "network" {
 
   tags = {
     environment = "dev"
-    costcenter  = "it"    
+    costcenter  = "it"  
+    project     = "Secret"
+    owner       = "El Capitan America"  
   }
 
   depends_on = [azurerm_resource_group.vnet]
