@@ -67,7 +67,7 @@ module "network" {
     costcenter  = "it"
     project     = "To the Moon 2021"
     owner       = "Oscar Villacis"
-    manager     = "Rocky III"
+    manager     = "Rocky V"
     
   }
 
