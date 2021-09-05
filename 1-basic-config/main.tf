@@ -68,7 +68,8 @@ module "network" {
     environment = "dev"
     costcenter  = "it"  
     project     = "Secret"
-    owner       = "El Capitan America"  
+    owner       = "El Capitan America"
+    department  = "Accounting"  
   }
 
   depends_on = [azurerm_resource_group.vnet]
