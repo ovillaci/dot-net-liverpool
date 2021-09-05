@@ -70,6 +70,7 @@ module "network" {
     project     = "Secret"
     owner       = "El Capitan America"
     department  = "Accounting"  
+    location    = "USA"
   }
 
   depends_on = [azurerm_resource_group.vnet]
