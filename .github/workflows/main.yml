@@ -5,7 +5,7 @@ name: validate-code
 on: [push, pull_request]
 
 env:
-  TF_LOG: DEBUG
+  TF_LOG: INFO
 
 jobs:
   validate:
@@ -81,7 +81,7 @@ jobs:
           })
 
     - name: terraform-apply
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       id: apply
       env:
         ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
